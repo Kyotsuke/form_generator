@@ -3,7 +3,7 @@
 
 	<svg width="750" height="750" class="center">
 		
-		<?php create_damier($_POST['damier_nb']); ?>
+		<?php create_damier($_GET['nb']); ?>
 
 	</svg>
 

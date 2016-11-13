@@ -3,7 +3,7 @@
 
 	<svg width="750" height="750" class="center">
 		
-		<?php create_triangle($_POST['triangle_nb']); ?>
+		<?php create_triangle($_GET['nb']); ?>
 
 	</svg>
 
